@@ -26,3 +26,17 @@ Name: Old Package
 Author: Reposi3 <reposithree@gmail.com>
 Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
 
+Package: com.theo78825.carplaylockout
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Reposi3 <reposithree@gmail.com>
+Depends: firmware (<12.0)
+Architecture: iphoneos-arm
+Filename: ./debs/com.theo78825.carplaylockout.deb
+Size: 860
+MD5sum: 8c606f0c05217aa2a20949091fe516f0
+Description: Disable lockout when connecting to CarPlay unit.
+Name: CarPlay Lockout
+Author: theo78825 <reposithree@gmail.com>
+Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+
