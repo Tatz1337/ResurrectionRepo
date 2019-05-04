@@ -33,8 +33,8 @@ Maintainer: Reposi3 <reposithree@gmail.com>
 Depends: firmware (<12.0)
 Architecture: iphoneos-arm
 Filename: ./debs/com.theo78825.carplaylockout.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
+Size: 3228
+MD5sum: ea063cf97384f2b8c9231bc35cfa8d18
 Description: Disable lockout when connecting to CarPlay unit.
 Name: CarPlay Lockout
 Author: theo78825 <reposithree@gmail.com>
