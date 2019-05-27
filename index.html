@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Resurrection Repo</title>
+  <title> \ Resurrection Repo / </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <style>body {
+ background-image: url("bg.png");
+ background-color: #cccccc;
+        color: black;
+}
+    
+    
+    </style>
 </head>
-<body>
+<body bgcolor="gray">
 
 <div class="container">
-	<h1><img src="CydiaIcon.png"> Resurrection</h1>
+	<h1><img src="CydiaIcon.png"> \ <font color="red">Resurrection</font> /</h1>
 </div>
 
 <div class="container">
 	<div class="well">
-		<p><span class="text-primary"><b>Resurrection</span></b> is a Cydia repository template.</p>
-		<a class="btn btn-sm btn-default" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://supermamon.github.io/Reposi3/">Add to Cydia</a>
+		<p><span class="text-primary"><b><font color="red">Resurrection</font></span></b> is a Cydia repository maintained by <a href="https://www.twitter.com/BinaryCoon">@BinaryCoon</a>.</p>
+		<a class="btn btn-dark" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://tatz1337.github.io/ResurrectionRepo/">Add to Cydia</a>
 	</div>
 </div>
 
 <div class="container">
-  <h3 id="wells" class="page-header">Featured Packages</h3>
+  <h3 id="wells" class="page-header">Packages</h3>
 </div>
 
+    <!--
 <div class="container">
 	<div class="panel panel-default">
 	  <div class="panel-heading">Old Package</div>
@@ -33,7 +42,27 @@
 		<a class="btn btn-xs btn-default" href="depictions/?p=com.supermamon.oldpackage">More info</a>
 	  </div>
 	</div>
+    
+    -->
 
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="sileo.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Sileo</h5>
+    <p class="card-text">The new, cutting edge package manager for Jailbroken devices. <a href="#">@GetSileo</a></p>
+    <a href="https://chimera.sh/" class="btn btn-primary">Install via Chimera</a>
+  </div>
+</div>
+    <br>
+        <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="cydia.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Cydia</h5>
+    <p class="card-text">The old, nostalgic package manager for Jailbroken devices.    <a href="#">@Saurik</a></p>
+    <a href="#" class="btn btn-primary">Must install via Sileo</a>
+  </div>
+</div>
+    <!--
 	<div class="panel panel-default">
 	  <div class="panel-heading">New Package</div>
 	  <div class="panel-body">
@@ -43,5 +72,12 @@
 	</div>
 </div>
 
+-->
+<br><br>
+    <center><div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-danger">Report A Bug</button>
+  <button type="button" class="btn btn-light">Middle</button>
+  <button type="button" class="btn btn-primary">Right</button>
+</div></center>
 </body>
 </html>
